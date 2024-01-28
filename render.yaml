@@ -3,8 +3,6 @@ services:
     name: uptimekuma
     env: docker
     repo: https://github.com/ElMejoro-30/uptime-kuma.git
-    region: oregon
-    plan: starter
-    branch: master
+    region: ohio
     rootDir: uptimekuma
     healthCheckPath: /
